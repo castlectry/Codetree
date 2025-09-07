@@ -12,7 +12,7 @@ public class Main {
             for(int col=1; col<=N; col++) {
                 System.out.print(row + " * " + col + " = " + row*col);
 
-                if(row != col) {
+                if(col != 3) {
                     System.out.print(", ");
                 }
 
