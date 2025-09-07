@@ -14,12 +14,14 @@ public class Main {
 
         int duplicationNumber = (N/6 + N/10 + N/15);
 
+        int allDuplicationNumber = N/30;
+
         // System.out.println(divide2);
         // System.out.println(divide3);
         // System.out.println(divide5);
         // System.out.println(duplicationNumber);
 
-        System.out.println(N - (divide2 + divide3 + divide5) + duplicationNumber);
+        System.out.println(N - (divide2 + divide3 + divide5) + duplicationNumber - allDuplicationNumber);
 
     }
 }
